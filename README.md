@@ -1,9 +1,7 @@
 # Desenvolvedor Full Stack | Yuri Lopes
 
-✨ Bem-vindo ao meu cantinho especial! ✨
-
 ## 🌐 Resumo
-  Sou desenvolvedor de software full stack, com foco em desenvolvimento web, gosto de soluções criativas e interfaces intuitivas.
+  Meu propósito é impactar a vida das pessoas com soluções criativas e que promova os melhores resultados. Sou Desenvolvedor FullStack formado pela Driven Education, tenho projetos e experiências utilizando as linguagens JavaScript, TypeScript, Node.js, React, Java e Python.
 
 
 ## 💼 Experiência
