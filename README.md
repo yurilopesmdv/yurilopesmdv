@@ -32,7 +32,7 @@
 <div>
 <a href="https://github.com/yurilopesmdv">
 <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yurilopesmdv&layout=compact&langs_count=7&theme=radical"/>
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/?username=israelltulio&show_icons=true&include_all_commits=true&theme=radical"/>
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/?username=yurilopesmdv&show_icons=true&include_all_commits=true&theme=radical"/>
 <img loading="lazy" height="153em" src="http://github-readme-streak-stats.herokuapp.com/?user=yurilopesmdv&amp;theme=radical">
 </a>
 </div>
