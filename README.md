@@ -8,7 +8,7 @@
 
 ## 💼 Experiência
 💻 Atuo no desenvolvimento web. Minha stack principal é a do JS:
-<div style="display: flex; gap: 10px">
+
   ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white)
   ![React](https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
   ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white)
@@ -23,8 +23,6 @@
   <br>
   ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)
   ![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white)
-  
-</div>
 
 🚀 Além de gostar muito de JavaScript, também tenho alguns projetos em Java e Python.
 
