@@ -14,6 +14,7 @@ Oi! Eu sou o **Yuri** 👋 — gosto de transformar ideia em coisa que roda: API
 
 | | Projeto | O que é |
 |---|---|---|
+| ⌨️ | [**devkit**](https://github.com/yurilopesmdv/devkit) | Um comando pra deixar Linux/WSL pronto pra dev: ferramentas de terminal, zsh sem oh-my-zsh e um prompt que pinta a branch conforme o estado do git. |
 | 🦀 | [**rust-devtool**](https://github.com/yurilopesmdv/rust-devtool) | Aprendendo Rust construindo de verdade: guia comparando com TypeScript, uma CLI de dev e um gerador de boilerplates para 8 stacks web. |
 | ☸️ | [**infralab**](https://github.com/yurilopesmdv/infralab) | Laboratório de infra: Docker, Kubernetes, Prometheus/Grafana e logs com Loki — com uma app pequena de propósito pra infra ficar visível. |
 | 🔥 | [**mfgastronomia**](https://github.com/yurilopesmdv/mfgastronomia) | Site + painel de um buffet de churrasco em produção, com orçamento em tempo real que já cai formatado no WhatsApp. [Ver no ar ↗](https://mfgastronomia.vercel.app) |
