@@ -29,9 +29,9 @@ Oi! Eu sou o **Yuri** 👋 — gosto de transformar ideia em coisa que roda: API
 ## 🧪 Mexendo agora
 
 <!--RECENT:START-->
+- `2026-11-10` [**devkit**](https://github.com/yurilopesmdv/devkit) — Um comando para preparar Linux/WSL para dev: ferramentas de terminal, zsh sem oh-my-zsh e prompt com status do git.
 - `2026-11-10` [**rust-devtool**](https://github.com/yurilopesmdv/rust-devtool) — Aprendendo Rust na prática: guia, CLI de desenvolvimento e gerador de boilerplates web.
 - `2026-10-16` [**infralab**](https://github.com/yurilopesmdv/infralab) — Laboratório de Docker, Kubernetes e observabilidade (Loki/Alloy) com uma app React + Node.js.
-- `2026-05-03` [**mfgastronomia**](https://github.com/yurilopesmdv/mfgastronomia) — Site e painel admin para buffet de churrasco, com orçamento em tempo real e envio pelo WhatsApp.
 <!--RECENT:END-->
 
 ## 🐍 Contribuições
