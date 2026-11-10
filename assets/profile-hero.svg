@@ -1,21 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-  <title id="title">Yuri Lopes — build, learn, iterate</title>
-  <desc id="desc">Cabeçalho escuro com terminal e formas abstratas em azul.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">Yuri Lopes — terminal</title>
+  <desc id="desc">Terminal animado: whoami, stack e no que estou mexendo agora.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p { fill: #4ade80; } .c { fill: #e2e8f0; } .o { fill: #94a3b8; } .a { fill: #67e8f9; } .m { fill: #c4b5fd; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .glow { animation: pulse 6s ease-in-out infinite; transform-origin: 1040px 200px; }
+    @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: .9; transform: scale(1.06); } }
+    .float { animation: float 7s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#102a43"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#45d6ff"/><stop offset="1" stop-color="#7177ff"/></linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7dd3fc" stroke-opacity=".09"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset="1" stop-color="#0f1f38"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="orb"><stop stop-color="#6366f1" stop-opacity=".55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity=".06"/></pattern>
+    <clipPath id="l1"><rect x="96" y="120" height="34" width="0"><animate attributeName="width" begin="0.4s" dur="0.6s" from="0" to="160" fill="freeze"/></rect></clipPath>
+    <clipPath id="l2"><rect x="96" y="156" height="34" width="0"><animate attributeName="width" begin="1.2s" dur="0.01s" from="0" to="640" fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="96" y="204" height="34" width="0"><animate attributeName="width" begin="1.8s" dur="0.8s" from="0" to="260" fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="96" y="240" height="34" width="0"><animate attributeName="width" begin="2.8s" dur="0.01s" from="0" to="640" fill="freeze"/></rect></clipPath>
+    <clipPath id="l5"><rect x="96" y="288" height="34" width="0"><animate attributeName="width" begin="3.4s" dur="0.9s" from="0" to="300" fill="freeze"/></rect></clipPath>
+    <clipPath id="l6"><rect x="96" y="324" height="34" width="0"><animate attributeName="width" begin="4.5s" dur="1.6s" from="0" to="640" fill="freeze"/></rect></clipPath>
   </defs>
-  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
-  <circle cx="1060" cy="84" r="150" fill="#2563eb" fill-opacity=".17"/>
-  <circle cx="1160" cy="270" r="110" fill="#22d3ee" fill-opacity=".12"/>
-  <rect x="74" y="74" width="570" height="210" rx="16" fill="#07111f" fill-opacity=".72" stroke="#7dd3fc" stroke-opacity=".25"/>
-  <circle cx="108" cy="108" r="7" fill="#fb7185"/><circle cx="132" cy="108" r="7" fill="#fbbf24"/><circle cx="156" cy="108" r="7" fill="#4ade80"/>
-  <text x="108" y="159" fill="#67e8f9" font-family="monospace" font-size="20">~/yuri $</text>
-  <text x="108" y="204" fill="#f8fafc" font-family="monospace" font-size="42" font-weight="700">build • learn • iterate</text>
-  <text x="108" y="244" fill="#94a3b8" font-family="monospace" font-size="19">ideias em código, uma iteração por vez</text>
-  <path d="M796 251c45-121 107-171 191-171 90 0 139 67 205 67" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="796" cy="251" r="9" fill="#45d6ff"/><circle cx="987" cy="80" r="9" fill="#7177ff"/><circle cx="1192" cy="147" r="9" fill="#45d6ff"/>
-  <text x="796" y="302" fill="#e2e8f0" font-family="monospace" font-size="23">&lt;YURI /&gt;</text>
+
+  <rect width="1280" height="400" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="20" fill="url(#grid)"/>
+  <circle class="glow" cx="1040" cy="200" r="230" fill="url(#orb)"/>
+
+  <g class="float">
+    <rect x="60" y="56" width="680" height="300" rx="14" fill="#020617" fill-opacity=".82" stroke="#334155"/>
+    <rect x="60" y="56" width="680" height="38" rx="14" fill="#0f172a"/>
+    <rect x="60" y="80" width="680" height="14" fill="#0f172a"/>
+    <circle cx="88" cy="75" r="6.5" fill="#fb7185"/><circle cx="110" cy="75" r="6.5" fill="#fbbf24"/><circle cx="132" cy="75" r="6.5" fill="#4ade80"/>
+    <text x="400" y="80" text-anchor="middle" class="mono o" font-size="14">yuri@dev: ~</text>
+
+    <g class="mono" font-size="19">
+      <text x="96" y="142" clip-path="url(#l1)"><tspan class="p">❯</tspan><tspan class="c"> whoami</tspan></text>
+      <text x="96" y="178" clip-path="url(#l2)" class="o">yuri lopes · dev full stack · cloud &amp; automação · curitiba</text>
+      <text x="96" y="226" clip-path="url(#l3)"><tspan class="p">❯</tspan><tspan class="c"> cat stack.txt</tspan></text>
+      <text x="96" y="262" clip-path="url(#l4)" class="a">ts · node · react · rust · postgres · docker · k8s</text>
+      <text x="96" y="310" clip-path="url(#l5)"><tspan class="p">❯</tspan><tspan class="c"> ./agora --status</tspan></text>
+      <text x="96" y="346" clip-path="url(#l6)" class="m">ferramentas de dev em rust + homelab k8s</text>
+    </g>
+    <g opacity="0">
+      <set attributeName="opacity" to="1" begin="6.1s" fill="freeze"/>
+      <rect class="cursor" x="560" y="331" width="11" height="20" fill="#4ade80"/>
+    </g>
+  </g>
+
+  <text x="1040" y="178" text-anchor="middle" fill="#f8fafc" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="800">Yuri Lopes</text>
+  <rect x="900" y="198" width="280" height="4" rx="2" fill="url(#accent)"/>
+  <text x="1040" y="240" text-anchor="middle" class="mono" fill="#cbd5e1" font-size="20">build · break · learn · ship</text>
 </svg>

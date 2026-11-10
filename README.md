@@ -1,26 +1,53 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Yuri Lopes — build, learn, iterate" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Terminal animado: Yuri Lopes, dev full stack, cloud e automação" width="100%" />
 </p>
 
-## Oi, eu sou o Yuri 👋
+<p align="center">
+  <a href="https://www.linkedin.com/in/yurilopesm/"><img src="https://img.shields.io/badge/LinkedIn-yurilopesm-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/📍-Curitiba,_BR-1f2937?style=flat-square" alt="Curitiba" />
+  <img src="https://img.shields.io/badge/aberto_a-trocar_ideia-22c55e?style=flat-square" alt="Aberto a trocar ideia" />
+</p>
 
-Curto transformar ideias em produtos, APIs e ferramentas que resolvem problemas de verdade. Aqui é meu espaço para experimentar, aprender e deixar projetos que eu teria prazer em usar.
+Oi! Eu sou o **Yuri** 👋 — gosto de transformar ideia em coisa que roda: APIs, produtos web e ferramentas que deixam o dia a dia de dev menos chato. Aqui é meu laboratório: tem projeto sério, tem experimento e tem coisa que nasceu só porque a ideia parecia divertida.
 
-### O que você vai encontrar por aqui
+## 🚀 Em destaque
 
-- aplicações web e backends;
-- APIs, integrações e automações;
-- experimentos com cloud, containers e ferramentas de desenvolvimento;
-- projetos feitos para aprender na prática — e, de vez em quando, só porque a ideia parecia divertida.
+| | Projeto | O que é |
+|---|---|---|
+| 🦀 | [**rust-devtool**](https://github.com/yurilopesmdv/rust-devtool) | Aprendendo Rust construindo de verdade: guia comparando com TypeScript, uma CLI de dev e um gerador de boilerplates para 8 stacks web. |
+| ☸️ | [**infralab**](https://github.com/yurilopesmdv/infralab) | Laboratório de infra: Docker, Kubernetes, Prometheus/Grafana e logs com Loki — com uma app pequena de propósito pra infra ficar visível. |
+| 🔥 | [**mfgastronomia**](https://github.com/yurilopesmdv/mfgastronomia) | Site + painel de um buffet de churrasco em produção, com orçamento em tempo real que já cai formatado no WhatsApp. [Ver no ar ↗](https://mfgastronomia.vercel.app) |
 
-### Caixa de ferramentas
+## 🛠️ Caixa de ferramentas
 
-`Python` · `Java` · `Node.js` · `TypeScript` · `PostgreSQL` · `Docker` · `AWS` · `Azure` · `Kubernetes`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,react,nextjs,rust,py,java&perline=9" alt="Linguagens e frameworks" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma,docker,kubernetes,grafana,prometheus,aws,azure,linux,bash,git&perline=12" alt="Dados, infra e ferramentas" />
+</p>
 
-### Agora
+## 🧪 Mexendo agora
 
-Explorando maneiras de deixar sistemas mais simples de operar, mais confiáveis e um pouco mais interessantes de construir.
+<!--RECENT:START-->
+- `2026-11-10` [**rust-devtool**](https://github.com/yurilopesmdv/rust-devtool) — Aprendendo Rust na prática: guia, CLI de desenvolvimento e gerador de boilerplates web.
+- `2026-10-16` [**infralab**](https://github.com/yurilopesmdv/infralab) — Laboratório de Docker, Kubernetes e observabilidade (Loki/Alloy) com uma app React + Node.js.
+- `2026-05-03` [**mfgastronomia**](https://github.com/yurilopesmdv/mfgastronomia) — Site e painel admin para buffet de churrasco, com orçamento em tempo real e envio pelo WhatsApp.
+<!--RECENT:END-->
 
----
+## 🐍 Contribuições
 
-Se algum projeto te chamou atenção, fique à vontade para abrir uma issue, sugerir uma melhoria ou só dar uma olhada no código.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yurilopesmdv/yurilopesmdv/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yurilopesmdv/yurilopesmdv/output/snake.svg" />
+  <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/yurilopesmdv/yurilopesmdv/output/snake.svg" />
+</picture>
+
+<details>
+<summary>⚡ <b>Fun facts</b></summary>
+
+- o primeiro repositório daqui é um jogo da memória com papagaios em JavaScript puro; o mais recente é uma CLI em Rust;
+- este README se atualiza sozinho — a seção "Mexendo agora" e a cobrinha rodam num GitHub Action;
+- prefiro um bom `README` a uma reunião longa.
+
+</details>
+
+<p align="center"><sub>Viu algo legal ou quebrado? Abre uma issue — feedback é sempre bem-vindo. ✌️</sub></p>
