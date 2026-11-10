@@ -1,44 +1,26 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Yuri Lopes — build, learn, iterate" width="100%" />
+</p>
 
-# Desenvolvedor Full Stack | Yuri Lopes
+## Oi, eu sou o Yuri 👋
 
-## 🌐 Resumo
-  Meu propósito é impactar a vida das pessoas com soluções criativas e que promova os melhores resultados. Sou Desenvolvedor FullStack formado pela Driven Education, tenho projetos e experiências utilizando as linguagens JavaScript, TypeScript, Node.js, React, Java e Python.
+Curto transformar ideias em produtos, APIs e ferramentas que resolvem problemas de verdade. Aqui é meu espaço para experimentar, aprender e deixar projetos que eu teria prazer em usar.
 
+### O que você vai encontrar por aqui
 
-## 💼 Experiência
-💻 Atuo no desenvolvimento web. Minha stack principal é a do JS:
+- aplicações web e backends;
+- APIs, integrações e automações;
+- experimentos com cloud, containers e ferramentas de desenvolvimento;
+- projetos feitos para aprender na prática — e, de vez em quando, só porque a ideia parecia divertida.
 
-  ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white)
-  ![React](https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
-  ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white)
-  <br>
-  
-  ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/Node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
-  ![Prisma](https://img.shields.io/badge/Prisma-%232D3748.svg?&style=for-the-badge&logo=prisma&logoColor=white)
-  <br>
-  
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white)
-  ![Redis](https://img.shields.io/badge/Redis-%23DC382D.svg?&style=for-the-badge&logo=redis&logoColor=white)
-  <br>
-  
-  ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)
-  ![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white)
+### Caixa de ferramentas
 
-🚀 Além de gostar muito de JavaScript, também tenho alguns projetos em Java e Python.
+`Python` · `Java` · `Node.js` · `TypeScript` · `PostgreSQL` · `Docker` · `AWS` · `Azure` · `Kubernetes`
 
-🌟 Estou sempre a procura de oportunidades de aprender algo novo e poder contribuir com soluções inovadoras.
+### Agora
 
-💬 Vamos bater um papo sobre código ou colaborar em projetos emocionantes? Fique à vontade para me contatar!
+Explorando maneiras de deixar sistemas mais simples de operar, mais confiáveis e um pouco mais interessantes de construir.
 
-📈 Dê uma olhada em alguns dos meus projetos e contribuições abaixo.
+---
 
-<div>
-<a href="https://github.com/yurilopesmdv">
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yurilopesmdv&layout=compact&langs_count=7&theme=radical"/>
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/?username=yurilopesmdv&show_icons=true&include_all_commits=true&theme=radical"/>
-<img loading="lazy" height="153em" src="http://github-readme-streak-stats.herokuapp.com/?user=yurilopesmdv&amp;theme=radical">
-</a>
-</div>
+Se algum projeto te chamou atenção, fique à vontade para abrir uma issue, sugerir uma melhoria ou só dar uma olhada no código.

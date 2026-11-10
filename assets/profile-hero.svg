@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yuri Lopes — build, learn, iterate</title>
+  <desc id="desc">Cabeçalho escuro com terminal e formas abstratas em azul.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#102a43"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#45d6ff"/><stop offset="1" stop-color="#7177ff"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7dd3fc" stroke-opacity=".09"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1060" cy="84" r="150" fill="#2563eb" fill-opacity=".17"/>
+  <circle cx="1160" cy="270" r="110" fill="#22d3ee" fill-opacity=".12"/>
+  <rect x="74" y="74" width="570" height="210" rx="16" fill="#07111f" fill-opacity=".72" stroke="#7dd3fc" stroke-opacity=".25"/>
+  <circle cx="108" cy="108" r="7" fill="#fb7185"/><circle cx="132" cy="108" r="7" fill="#fbbf24"/><circle cx="156" cy="108" r="7" fill="#4ade80"/>
+  <text x="108" y="159" fill="#67e8f9" font-family="monospace" font-size="20">~/yuri $</text>
+  <text x="108" y="204" fill="#f8fafc" font-family="monospace" font-size="42" font-weight="700">build • learn • iterate</text>
+  <text x="108" y="244" fill="#94a3b8" font-family="monospace" font-size="19">ideias em código, uma iteração por vez</text>
+  <path d="M796 251c45-121 107-171 191-171 90 0 139 67 205 67" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="796" cy="251" r="9" fill="#45d6ff"/><circle cx="987" cy="80" r="9" fill="#7177ff"/><circle cx="1192" cy="147" r="9" fill="#45d6ff"/>
+  <text x="796" y="302" fill="#e2e8f0" font-family="monospace" font-size="23">&lt;YURI /&gt;</text>
+</svg>
